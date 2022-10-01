@@ -1,0 +1,11 @@
+<router-outlet></router-outlet>
+
+<h1> Bienvenido al sitio de aficionados al Pokemon TCG</h1>
+<app-header></app-header>
+<div class="grid">
+    <app-card [item]="ci" *ngFor="let ci of CardItems"></app-card>
+</div>
+<app-slidebar></app-slidebar>
+
+
+
